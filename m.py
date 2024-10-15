@@ -17,13 +17,13 @@ keep_alive()
 
 # insert your Telegram bot token here
 
-bot = telebot.TeleBot('7634790841:AAFXyOj95eudrWBAS_5tP2nwyCJlojzvA5I')
+bot = telebot.TeleBot('7412698601:AAF-_2elmjHT8lsoyG-t7HBRMcFQjQairOg')
 
 
 
 # Admin user IDs
 
-admin_id = ["1635908789"]
+admin_id = ["7246521618"]
 
 
 
@@ -97,7 +97,7 @@ allowed_user_ids = read_users()
 
 def log_command(user_id, target, port, time):
 
-    admin_id = ["1635908789"]
+    admin_id = ["7246521618"]
 
     user_info = bot.get_chat(user_id)
 
@@ -307,7 +307,7 @@ def add_user(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @mklsuraj"
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @RONIT_IN"
 
 
 
@@ -331,7 +331,7 @@ def get_user_info(message):
 
     remaining_time = get_remaining_approval_time(user_id)
 
-    response = f"👤 Your Info:\n\n🆔 User ID: <code>{user_id}</code>\n📝 Username: {username}\n🔖 Role: {user_role}\n📅 Approval Expiry Date: {user_approval_expiry.get(user_id, 'Not Approved')}\n⏳ Remaining Approval Time: {remaining_time}\n @mklsuraj"
+    response = f"👤 Your Info:\n\n🆔 User ID: <code>{user_id}</code>\n📝 Username: {username}\n🔖 Role: {user_role}\n📅 Approval Expiry Date: {user_approval_expiry.get(user_id, 'Not Approved')}\n⏳ Remaining Approval Time: {remaining_time}\n @RONIT_IN"
 
     bot.reply_to(message, response, parse_mode="HTML")
 
@@ -379,7 +379,7 @@ def remove_user(message):
 
     else:
 
-        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @mklsuraj❤️."
+        response = "🔐 plan expired:- @RONIT_IN❤️."
 
 
 
@@ -417,7 +417,7 @@ def clear_logs_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @mklsuraj❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @RONIT_IN❄."
 
     bot.reply_to(message, response)
 
@@ -455,7 +455,7 @@ def clear_users_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @mklsuraj 🔐."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @RONIT_IN 🔐."
 
     bot.reply_to(message, response)
 
@@ -505,7 +505,7 @@ def show_all_users(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @mklsuraj❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @RONIT_IN❄."
 
     bot.reply_to(message, response)
 
@@ -541,7 +541,7 @@ def show_recent_logs(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @mklsuraj❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @RONIT_IN❄."
 
         bot.reply_to(message, response)
 
@@ -559,7 +559,7 @@ def start_attack_reply(message, target, port, time):
 
     
 
-    response = f"{username}, 𝐀𝐭𝐭𝐚𝐜𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🤡🖕🏻\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @mklsuraj"
+    response = f"{username}, 𝐀𝐭𝐭𝐚𝐜𝐤 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 ❤️‍🩹\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @RONIT_IN"
 
     bot.reply_to(message, response)
 
@@ -641,7 +641,7 @@ def handle_bgmi(message):
 
     else:
 
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan 1⃣ ᴅᴀʏ ғʀᴇᴇ ᴛʀɪᴀʟ ᴀʟᴏsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ:- @mklsuraj / @mklsuraj🤡")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan :- @RONIT_IN 🥶")
 
 
 
@@ -699,16 +699,16 @@ def show_help(message):
 
 💥 /bgmi : Method For Bgmi Servers. 
 
-💥 /rules : Please Check Before Use !!.
+💥 /rules : Please Check Before Using !!.
 
-💥 /plan : Our rates are cheap, you can afford the plans Dm @mklsuraj.
-
-
+💥 /plan : Our rates are cheap, you can afford the plans Dm @RONIT_IN.
 
 
-Buy From :- @mklsuraj
 
-Official Channel :- https://t.me/+pE_GZwn83y0xZjll
+
+Buy From :- @RONIT_IN
+
+Official Channel :- https://t.me/+Wkgy3gDrc6IzNDRl
 '''
 
     for handler in bot.message_handlers:
@@ -737,12 +737,12 @@ def welcome_start(message):
 
     user_name = message.from_user.first_name
 
-    response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
+    response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss. DM - @RONIT_IN
 
 
 🤖 𝙎𝙩𝙖𝙧𝙩 𝘿-𝘿𝙤𝙨 : /help 
 💥 /info : TO Check Your WHOLE INFO.
-✅ That Was Get Your Access From :- @mklsuraj☠️
+✅ That Was Get Your Access From :- @RONIT_IN☠️
 
 '''
 
@@ -764,7 +764,7 @@ def welcome_rules(message):
 
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
 
-3. @mklsuraj
+3. Join https://t.me/+Wkgy3gDrc6IzNDRl
 
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
 
@@ -784,7 +784,7 @@ def welcome_plan(message):
 
 Vip 🌟 :
 
--> Attack Time : 300 (S)
+-> Attack Time : 600 (S)
 
 > After Attack Limit : 10 sec
 
@@ -794,9 +794,9 @@ Vip 🌟 :
 
 Pr-ice List💸 :
 
-200 day
+80 day
 
-750 week
+400 week
 
 1000 month
 
@@ -872,7 +872,7 @@ def broadcast_message(message):
 
     else:
 
-        response = "Only Admin Can Run This Command 😡."
+        response = "Only @RONIT_IN Can Run This Command 😡."
 
 
 
